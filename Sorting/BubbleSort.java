@@ -29,5 +29,6 @@ public class BubbleSort {
         for(int i=0;i<n;i++){
             System.out.println(nums[i]);
         }
+        sc.close();
     }
 }
