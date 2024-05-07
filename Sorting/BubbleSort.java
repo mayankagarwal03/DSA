@@ -5,7 +5,6 @@ public class BubbleSort {
         for(int i=n-1;i>0;i--){
             int flag=0;
             for(int j=0;j<i;j++){
-                System.out.println("hello");
                 if(num[j]>num[j+1]){
                     int temp=num[j];
                     num[j]=num[j+1];
